@@ -56,7 +56,7 @@ class Main:
         self.userentry = Entry(master)
         self.userentry.grid(row=3, column=5)
         mklabel('Password: ', '3', '6', 'e', '')
-        self.passwdentry = Entry(master)
+        self.passwdentry = Entry(master, show='*')
         self.passwdentry.grid(row=3, column=7)
 
         ## Line 4
